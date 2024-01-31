@@ -110,6 +110,25 @@ a{
     opacity: 1;
 }
 
+
+
+
+
+
+
+.songlist ul{
+    padding: 0 42px;
+}
+
+
+.songList ul li{
+    list-style-type: decimal;
+}
+
+
+
+
+
 .box{
     height: 8rem;
     background-color: #232323;
