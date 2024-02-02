@@ -247,32 +247,30 @@
 
         </div>   
         <div class="music-player">
-            <div class="album">
-                <img class="album-pic" src="./assets/album_picture.jpeg">
-            <div class="album-text">
-                <div class="album-name" >Song Name</div>
-                <div class="artist-name">Artist</div>
-            </div>
-            <img src="./assets/album_icon1.png" class="fav">
-            </div>
+            
+                <div class="album">
+                    <img class="album-pic" src="./assets/album_picture.jpeg">
+                <div class="album-text">
+                    <div class="album-name"></div>
+                    <div class="artist-name">Artist</div>
+                </div>
+                    <img src="./assets/album_icon1.png" class="fav">
+                </div>
+
             <div class="player">
                 <div class="player-controls">
                     <img src="./assets/player_icon1.png" class="player-control-icon">
-                    <img src="./assets/player_icon2.png" class="player-control-icon">
-                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;">
-                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon" id="previous"> 
+                    <!--<img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;" id="play">-->
+                    <img src="/assets/play.svg" alt="" class="player-control-icon" style="opacity: 0.7;height: 2rem;" id="play">
+                    <img src="./assets/player_icon4.png" class="player-control-icon" id="next">
                     <img src="./assets/player_icon5.png" class="player-control-icon">
                 </div>
                 <div class="playback-bar">
                     <div class="songinfo">
-                        
                     </div>
-                    <span class="curr-time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar" step="1">
-                    <span class="tot-time">3:30</span>
-
+                    <input type="range" min="0" max="100" class="seekbar" step="1">
                     <div class="songtime">
-                        
                     </div>
                 </div>
             </div>

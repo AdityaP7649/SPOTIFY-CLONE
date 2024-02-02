@@ -37,6 +37,8 @@ body {
   bottom: 0px;
   width: 100%;
   height: 72px;
+  justify-content: space-evenly;
+  position:fixed;
 }
 
 a {
@@ -108,8 +110,6 @@ a {
 .icons i:hover {
   opacity: 1;
 }
-
-
 
 
 
@@ -288,6 +288,8 @@ a {
   cursor: pointer;
 }
 
+
+
 .card-img {
   width: 100%;
   border-radius: 0.5rem;
@@ -324,7 +326,9 @@ a {
 
 .album {
   width: 25%;
+  justify-content: space-evenly;
 }
+
 
 .player {
   width: 70%;
@@ -358,7 +362,7 @@ a {
   align-items: center;
 }
 
-.progress-bar {
+.seekbar {
   width: 55%;
   appearance: none;
   background-color: transparent;
@@ -366,13 +370,13 @@ a {
   margin-top: 0.4;
 }
 
-.progress-bar::-webkit-slider-runnable-track {
+.seekbar::-webkit-slider-runnable-track {
   background-color: #c3c3c3;
   border-radius: 100px;
   height: 0.2rem;
 }
 
-.progress-bar::-webkit-slider-thumb {
+.seekbar::-webkit-slider-thumb {
   appearance: none;
   height: 1rem;
   width: 1rem;
@@ -395,6 +399,7 @@ a {
 
 .album {
   display: flex;
+  justify-content: flex-end;
 }
 
 .album-pic {
@@ -424,6 +429,7 @@ a {
   margin-top: 1rem;
   margin-left: 9rem;
   cursor: pointer;
+  
 }
 
 .controls {
