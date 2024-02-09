@@ -2,7 +2,7 @@ let currentSong = new Audio();
 
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) {
-        return "00:00";
+        return "00:00"; 
     }
 
     const minutes = Math.floor(seconds / 60);
@@ -96,7 +96,6 @@ async function main() {
         document.querySelector(".circle").style.left = percent + "%";
         currentSong.currentTime = ((currentSong.duration) * percent) / 100
     })
-
 }
 
 main()

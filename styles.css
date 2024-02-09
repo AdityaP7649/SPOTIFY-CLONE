@@ -253,14 +253,20 @@ a {
   padding: 1rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
-  cursor: pointer;
   position: relative;
+  transition: all 1s;
+}
+
+.card:hover{
+  background-color:#1a1919;
+  cursor: pointer;
 }
 
 .cards-container {
   display: inline-block;
   flex-wrap: wrap;
 }
+
 
 .play-button {
   background-color: #1bd760;
